@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'stackyard';
+    src: url('../fonts/stackyard_personal_use-webfont.eot');
+    src: url('../fonts/stackyard_personal_use-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/stackyard_personal_use-webfont.woff2') format('woff2'),
+         url('../fonts/stackyard_personal_use-webfont.woff') format('woff'),
+         url('../fonts/stackyard_personal_use-webfont.ttf') format('truetype'),
+         url('../fonts/stackyard_personal_use-webfont.svg#stackyard_personal_useregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+  background: transparent;
+  box-sizing:border-box;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  background-image: url('../img/paint0.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-family: 'stackyard', cursive;
+  font-size: 3em;
+  color:#E60086;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+  margin-bottom: -0.2em;
+  transition: 0.5s all ease;
+}
+
+.title {
+  text-align:center;
+}
+
+.respImg {
+  max-width:90%;
+  max-height:100%;
+  margin: auto;
+}
+
+.row {
+  margin:auto;
+  padding-top: 1em;
+  transition: 0.5s all ease;
+}
+
+.poster {
+
+}
+
+.tickets {
+
+}
+
+.col {
+  width: 100%;
+  display: inline-block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0.5em 1em 0.5em 1em;
+  text-align:center;
+  transition: 1s all ease;
+}
+
+.colTix {
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0.5em 1em 0.5em 1em;
+  transition: 0.5s all ease;
+}
+.colDesc {
+  width: 100%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 2em;
+  background-color:#FF0;
+  text-align:justify;
+  vertical-align: middle;
+  transition: 0.5s all ease;
+
+}
+@media screen and (min-width: 500px) {
+  h1 {
+    font-size: 4em;
+  }
+  body {
+    background-image: url('../img/paint.jpg');
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .col {
+    width: 29%;
+  }
+  .row {
+    text-align:center;
+  }
+  .colTix {
+    width: 36%;
+    display: table-cell;
+  }
+  .colDesc {
+    width: 55%;
+    display: table-cell;
+    padding: 3em;
+  }
+  h1 {
+    font-size: 5em;
+    color:#fff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom: -0.2em;
+  }
+
+  body {
+    background-image: url('../img/paint1.jpg');
+  }
+}
+@media screen and (min-width: 1024px) {
+  .col {
+    width: 30%;
+  }
+  .row {
+    text-align:center;
+  }
+  .colTix {
+    width: 36%;
+    display: table-cell;
+  }
+  .colDesc {
+    width: 57%;
+    display: table-cell;
+    padding: 4em;
+  }
+  h1 {
+    font-size: 7em;
+  }
+  body {
+    background-image: url('../img/paint2.jpg');
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  h1 {
+    font-size: 9em;
+  }
+  body {
+    background-image: url('../img/paint3.jpg');
+  }
+}
