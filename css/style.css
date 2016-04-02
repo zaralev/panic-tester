@@ -31,10 +31,25 @@ body {
 h1 {
   font-family: 'stackyard', cursive;
   font-size: 3em;
-  color:#E60086;
+  color:#fb3127;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
   margin-bottom: 0.3em;
   transition: 1s all ease;
+}
+
+h2 {
+  color:#fff;
+  text-align:center;
+  font-size:1.2em;
+  font-weight:bold;
+}
+
+h3 {
+  color:#fff;
+  text-align:center;
+  font-size:1.2em;
+  font-family: Georgia, serif;
+  font-style:italic;
 }
 
 .container {
@@ -59,11 +74,11 @@ h1 {
 }
 
 .poster {
-
+  padding-bottom:2em;
 }
 
 .tickets {
-
+  background-color:#000;
 }
 
 .col {
@@ -92,20 +107,33 @@ h1 {
   margin-right: auto;
   margin-left: auto;
   padding: 1.5em;
-  text-align:justify;
+  text-align:center;
   vertical-align: middle;
   transition: 0.5s all ease;
 
 }
 
 .text {
+  font-family:Georgia, serif;
+  padding:1em;
+  font-size:1.1em;
+}
+
+.newOr {
   color: #fff;
-  padding:2em;
+  font-family: 'stackyard', cursive;
+  font-size: 2.5em;
 }
 
 @media screen and (min-width: 500px) {
   h1 {
     font-size: 4em;
+  }
+  h2 {
+    font-size:1.7em;
+  }
+  h3 {
+    font-size:1.5em;
   }
   body {
     background-image: url('../img/paint.jpg');
@@ -160,6 +188,9 @@ h1 {
   }
   body {
     background-image: url('../img/paint2.jpg');
+  }
+  .newOr {
+    font-size: 3.5em;
   }
 }
 
