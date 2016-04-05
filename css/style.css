@@ -116,13 +116,15 @@ h3 {
 .text {
   font-family:Georgia, serif;
   padding:1em;
-  font-size:1.1em;
+  font-size:1em;
+  transition: 1s all ease;
 }
 
 .newOr {
   color: #fff;
   font-family: 'stackyard', cursive;
   font-size: 2.5em;
+  transition: 1s all ease;
 }
 
 @media screen and (min-width: 500px) {
@@ -137,6 +139,9 @@ h3 {
   }
   body {
     background-image: url('../img/paint.jpg');
+  }
+  .text {
+    font-size:1.1em;
   }
 }
 
